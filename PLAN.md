@@ -46,7 +46,7 @@ Copy-Item -Recurse -Force "G:\My Drive\Obsidian\CMU AI Agents\*" notes\; Copy-It
 | Batch | Lectures | Topics |
 |---|---|---|
 | **1 (done)** | L01 What Are Agents | T01 Agent Loop & Harness Design |
-| 2 | L02 Tool Use, L03 Long-Context | T02 Tool Calling & MCP, T03 Context Engineering |
+| **2 (done)** | L02 Tool Use, L03 Long-Context | T02 Tools at Scale & Under Attack, T03 Context Engineering in Production |
 | 3 | L04 Memory & Skills, L05 Planning | T04 Memory & Skills, T05 Planning & Multi-Agent |
 | 4 | L06 Coding, L07 Computer Use | T06 Coding Agents, T07 Computer-Use Agents |
 | 5 | L08 SFT, L09 RL Foundations, L11 Advanced RL, L12 RL Systems | T10 SFT, T11 Policy-Gradient RL, T12 Rewards & Reward Hacking |

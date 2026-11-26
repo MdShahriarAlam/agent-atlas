@@ -260,7 +260,7 @@ h1 { margin: 4px 0 2px; font: 800 30px/1.15 var(--mono); letter-spacing: -.02em;
 .body table, .deep table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 8px 0; }
 .body th, .body td, .deep th, .deep td { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .body th, .deep th { font: 700 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
-.formula { display: block; margin: 8px 0; padding: 8px 10px; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; font: 13px var(--mono); overflow-x: auto; white-space: nowrap; }
+.formula { display: block; margin: 8px 0; padding: 8px 10px; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; font: 13px var(--mono); overflow-wrap: anywhere; }
 .key { display: flex; gap: 10px; margin: 14px 0 12px; padding: 12px 14px; border-radius: 12px; background: var(--purple-bg); border: 1.5px solid color-mix(in srgb, var(--purple) 35%, transparent); }
 .key-icon { flex: none; width: 28px; height: 28px; display: grid; place-items: center; border-radius: 8px; background: var(--card); border: 1.5px solid color-mix(in srgb, var(--purple) 40%, transparent); color: var(--purple); }
 .key strong { font: 700 11px var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--purple); }

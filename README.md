@@ -27,4 +27,10 @@ Then open http://localhost:5173. (Opening `index.html` directly won't load the n
 
 ## Status
 
-Done: L01 What Are Agents?, T01 The Agent Loop & Harness Design. The rest of the course is planned in `PLAN.md`.
+Done (6 lessons, 85 steps, 48 quiz questions):
+
+- L01 What Are Agents? · T01 The Agent Loop & Harness Design
+- L02 Tool Use · T02 Tools at Scale & Under Attack
+- L03 Long-Context Agents · T03 Context Engineering in Production
+
+The rest of the course is planned in `PLAN.md`.
