@@ -1,0 +1,5 @@
+# local tool state, not part of the site
+.claude/settings.local.json
+.impeccable/
+node_modules/
+.vercel/
