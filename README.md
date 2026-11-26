@@ -27,10 +27,14 @@ Then open http://localhost:5173. (Opening `index.html` directly won't load the n
 
 ## Status
 
-Done (6 lessons, 85 steps, 48 quiz questions):
+Done (14 lessons, 203 steps, 112 quiz questions):
 
 - L01 What Are Agents? · T01 The Agent Loop & Harness Design
 - L02 Tool Use · T02 Tools at Scale & Under Attack
 - L03 Long-Context Agents · T03 Context Engineering in Production
+- L04 Memory and Skills · T04 Memory Systems: Write, Read, Defend
+- L05 Planning and Task Decomposition · T05 Multi-Agent Systems and Search
+- L06 Coding Agents · T06 Coding Agents in the Real World
+- L07 Computer Use Agents · T07 Seeing, Clicking and Staying Safe
 
 The rest of the course is planned in `PLAN.md`.

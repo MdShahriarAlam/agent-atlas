@@ -20,6 +20,13 @@ for (const l of L) for (const s of l.steps) {
   for (const id of ids) console.assert(l.nodes[id] || l.zones?.[id], `${l.id}: unknown id "${id}"`);
   console.assert(s.short, `${l.id}: step "${s.title}" has no short label`);
 }
+// Every message and speech bubble must point at an object already on stage at that step.
+for (const l of L) l.steps.forEach((s, i) => {
+  const shown = new Set();
+  for (const t of l.steps.slice(0, i + 1)) { (t.show || []).forEach(x => shown.add(x)); (t.hide || []).forEach(x => shown.delete(x)); }
+  for (const id of [...(s.flows || []).flatMap(f => f.slice(0, 2)), ...Object.keys(s.callouts || {})])
+    console.assert(shown.has(id), `${l.id} step ${i + 1}: "${id}" is used before it is shown`);
+});
 for (const l of L) for (const s of l.steps) for (const fl of s.flows || []) {
   console.assert(['req', 'res', 'hs'].includes(fl[2]), `${l.id}: bad flow kind in "${s.title}"`);
   console.assert(fl[4], `${l.id}: a message in "${s.title}" has no caption`);
